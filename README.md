@@ -2,7 +2,12 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1u4hwe39XZZlQbtdQDecR4MStnQlgBj2h?usp=sharing)
 
+
 A fully functional Retrieval-Augmented Generation (RAG) chatbot that provides comprehensive information about machine learning, deep learning, AI, and related topics. Built with modern AI technologies and ready for deployment.
+
+
+<img width="1457" height="874" alt="Image" src="https://github.com/user-attachments/assets/b4f6412a-05e6-4713-8f5e-81b5eeeca146" />
+
 
 ## 🎯 Project Purpose
 
