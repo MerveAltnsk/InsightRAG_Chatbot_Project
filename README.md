@@ -16,7 +16,44 @@ The primary goal is to make AI and machine learning knowledge accessible through
 
 ## 📚 Dataset Information
 
-### Dataset Source
+🧩 Dataset Summary
+
+[arXiv:2302.14035](https://arxiv.org/abs/2302.14035)
+
+The Pile is a large-scale, diverse, open-source text dataset developed by EleutherAI to train and evaluate large language models (LLMs).
+It contains over 800GB of English text collected from 22 high-quality sources, including academic publications, web pages, GitHub repositories, and books.
+
+The dataset was designed to provide a broad and representative sample of human language, covering domains such as:
+
+Artificial Intelligence and Machine Learning research papers
+
+Mathematics, Science, and Engineering texts
+
+Open web content and Wikipedia articles
+
+GitHub code snippets and documentation
+
+Due to its diversity and scale, The Pile has become a benchmark dataset for developing and testing modern language models.
+
+
+📊 Data Source
+
+This project uses The Pile
+ — an open-source text dataset created by EleutherAI and hosted on Hugging Face.
+The dataset consists of diverse English text collected from various open-access sources, including academic papers, web pages, and books.
+
+Data is accessed directly via the Hugging Face API using the datasets library, without downloading or storing local copies.
+
+📚 Reference
+
+For academic and citation purposes, The Pile dataset is introduced in the following research paper:
+
+Gao, L., Tow, J., Biderman, S., Black, S., Anthony, Q., Golding, L., ... & Leahy, C. (2020). The Pile: An 800GB Dataset of Diverse Text for Language Modeling. arXiv preprint arXiv:2302.14035
+
+This dataset supports the development and evaluation of lightweight LLM experiments for educational and research purposes.
+
+
+### Dataset 
 
 - **Primary Dataset**: The Pile (EleutherAI/the_pile) from Hugging Face
 - **Access Method**: Hugging Face Datasets API (no local downloads required)
@@ -166,9 +203,9 @@ The chatbot can answer a comprehensive range of questions across multiple catego
 
 ### Option 1: Google Colab (Recommended)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo/blob/main/rag_notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1u4hwe39XZZlQbtdQDecR4MStnQlgBj2h?usp=sharing)
 
-1. **Open the notebook**: Click the Colab badge above or upload `rag_notebook.ipynb` to Google Colab
+1. **Open the notebook**: Click the Colab badge above or upload `InsightRAG.ipynb` to Google Colab
 2. **Set up API key**: Add your Gemini API key to Colab secrets
 3. **Run all cells**: Execute the notebook to build the RAG system
 4. **Test the system**: Try the sample questions provided
@@ -238,7 +275,7 @@ Traditional chatbots often provide generic responses without access to specific 
 - **Flexible**: Easy to extend with additional knowledge sources
 - **Efficient**: Fast retrieval and generation pipeline
 
-## 🌐 Web Interface & Deployment
+## 🌐 Web Interface 
 
 ### Local Testing
 
@@ -248,9 +285,6 @@ Traditional chatbots often provide generic responses without access to specific 
 4. Initialize the RAG system
 5. Start chatting!
 
-### Web Deployment
-
-[Deploy to Hugging Face Spaces](https://huggingface.co/spaces) - _Add your deployment link here_
 
 ### Interface Features
 
