@@ -11,3 +11,16 @@ tiktoken==0.5.1
 numpy==1.24.3
 pandas==2.0.3
 tqdm==4.66.1
+
+
+#streamlit
+#sentence-transformers==2.2.2
+#transformers==4.28.1
+#chromadb
+#langchain==0.3.0
+#langchain-google-genai
+#datasets
+#tqdm
+#python-dotenv
+#huggingface-hub==0.16.4
+
